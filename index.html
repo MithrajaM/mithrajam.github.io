@@ -1,16 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Mithraja | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- NAVBAR -->
     <header>
         <nav>
             <h2>Mithraja</h2>
@@ -24,20 +20,186 @@
         </nav>
     </header>
 
-    <!-- HERO SECTION -->
-    <section id="home">
-        <h4>Hello, I’m</h4>
-        <h1>Mithraja</h1>
-        <h3>Computer Science & Business Systems Student</h3>
-        <p>
-            Aspiring software developer with interests in Full Stack Development,
-            Data Analytics, and emerging AI technologies.
-        </p>
+    <main>
+        <section id="home" class="hero reveal">
+            <div class="section-inner hero-grid">
+                <div class="hero-copy">
+                    <p class="section-title">Welcome</p>
+                    <h1>Hi, I'm <span>Mithraja</span></h1>
+                    <h3>Computer Science & Business Systems Student</h3>
+                    <p>
+                        Aspiring software developer focused on Full Stack Development,
+                        Data Analytics, and intelligent digital experiences. I build
+                        interfaces that feel alive, fast, and modern.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button" href="#projects">View My Work</a>
+                        <a class="button" href="#contact">Contact Me</a>
+                    </div>
+                </div>
 
-        <button>View My Work</button>
-        <button>Contact Me</button>
-    </section>
+                <div class="hero-visual reveal" data-reveal-delay="120">
+                    <div class="visual-card">
+                        <div class="visual-layer"></div>
+                        <div class="glow-ring"></div>
+                        <div class="orbit"></div>
+                        <div class="scene">
+                            <div class="cube-1"></div>
+                            <div class="cube-2"></div>
+                            <div class="cube-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="about" class="reveal">
+            <div class="section-inner">
+                <p class="section-title">About Me</p>
+                <h2 class="section-heading">Designing modern solutions with a technical mindset.</h2>
+                <p class="section-copy">
+                    I am a Computer Science & Business Systems undergraduate with a passion for
+                    technology, problem-solving, and leadership. My journey blends frontend creativity,
+                    analytics, and a growing backend foundation.
+                </p>
+                <div class="about-grid-full">
+                    <div class="about-section">
+                        <h3>Technical Achievements</h3>
+                        <ul>
+                            <li>Smart India Hackathon 2025 Finalist</li>
+                            <li>L&T Techgium 9th Edition Finalist (Recognized for Top 7)</li>
+                            <li>Winner of UI Design Competition at Coimbatore Institute of Technology 2025</li>
+                            <li>Winner of Web Design Charades at Sri Eshwar College of Engineering</li>
+                            <li>Sathakathon 2025 Top 10 at Mohammad A.J. College</li>
+                            <li>Participated in various hackathons and competitions</li>
+                        </ul>
+                    </div>
+                    <div class="about-section">
+                        <h3>Toastmasters Club Leadership</h3>
+                        <p><strong>Sri Eshwar Toastmasters Club – Chapter II</strong></p>
+                        <ul>
+                            <li>Sergeant at Arms (2024)</li>
+                            <li>Vice President Education (2025)</li>
+                            <li>President (2026)</li>
+                            <li>Assistant Area Director of Area H3</li>
+                            <li>Winner of Evaluation Contest – Area Level 2025</li>
+                            <li>Winner of International Speech Contest – Area Level 2026</li>
+                        </ul>
+                    </div>
+                    <div class="about-section">
+                        <h3>Profiles & Certifications</h3>
+                        <ul>
+                            <li><strong>Coding Profile:</strong> <a href="https://leetcode.com/u/Mithraja/" target="_blank" rel="noreferrer">LeetCode</a></li>
+                            <li><strong>Certifications:</strong> <a href="https://drive.google.com/drive/folders/1mANe8T9Dz1FCzuz02cfH-Qz1xbvPb_0e" target="_blank" rel="noreferrer">View on Google Drive</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="reveal">
+            <div class="section-inner">
+                <p class="section-title">Skills</p>
+                <h2 class="section-heading">Capabilities that power every project.</h2>
+                <div class="cards grid-2">
+                    <div class="card tilt-card">
+                        <h3>Languages & Core</h3>
+                        <p><strong>Languages:</strong> Java | C++ | C | Python</p>
+                        <p><strong>Core:</strong> OOPs | Data Structures</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Query & Big Data</h3>
+                        <p><strong>Query Language:</strong> SQL | MongoDB</p>
+                        <p><strong>Big Data & Workflow:</strong> Hadoop | Apache Airflow | PySpark</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Web Technologies</h3>
+                        <p>HTML | JavaScript | CSS | React | Node.js | Express.js</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Tools & Platforms</h3>
+                        <p>VS Code | Git | GitHub | Postman | Excel | Power BI</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="reveal">
+            <div class="section-inner">
+                <p class="section-title">Projects</p>
+                <h2 class="section-heading">Work that demonstrates impact and growth.</h2>
+                <div class="cards grid-2">
+                    <div class="card tilt-card">
+                        <h3>SecureSight – AI-Based CCTV Threat Detection</h3>
+                        <p>
+                            Designed and developed an AI-driven surveillance system to detect threatening
+                            behavior and distress in real time using trained ML models.
+                        </p>
+                        <p><strong>Tech:</strong> Python | OpenCV | TensorFlow | CNNs</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Sportify – AI-Based Sports Talent Identification Platform</h3>
+                        <p>
+                            Developed a mobile and web-based platform to identify and evaluate athletes
+                            through AI-driven performance analysis.
+                        </p>
+                        <p><strong>Tech:</strong> React.js | Node.js | Express.js | MongoDB | Pose Estimation</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>AegisAI Trinity – Five Layer AI Cyber Defense System</h3>
+                        <p>
+                            Developed an AI-powered intrusion prevention system for real-time cyber threat
+                            detection and autonomous response.
+                        </p>
+                        <p><strong>Tech:</strong> React | Electron | FastAPI | Python | MongoDB | LightGBM | SVM</p>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Designed and developed a modern, interactive portfolio using HTML, CSS, and
+                            JavaScript to showcase skills and projects with a 3D scrolling experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <div class="section-inner">
+                <p class="section-title">Contact</p>
+                <h2 class="section-heading">Let's build something together.</h2>
+                <div class="cards grid-2">
+                    <div class="card tilt-card">
+                        <h3>Get in touch</h3>
+                        <p>
+                            I'm open to internships, collaboration, and learning opportunities.
+                            Get in touch to discuss your next project.
+                        </p>
+                        <ul>
+                            <li>Email: <a href="mailto:mithraja27@gmail.com">mithraja27@gmail.com</a></li>
+                            <li>LinkedIn: <a href="https://www.linkedin.com/in/mithraja-m-60b05a292/" target="_blank" rel="noreferrer">linkedin.com/in/mithraja-m-60b05a292</a></li>
+                            <li>GitHub: <a href="https://github.com/MithrajaM" target="_blank" rel="noreferrer">github.com/MithrajaM</a></li>
+                        </ul>
+                    </div>
+                    <div class="card tilt-card">
+                        <h3>Coding Profiles</h3>
+                        <p>
+                            Check out my coding profiles to see my competitive programming work
+                            and algorithm solutions.
+                        </p>
+                        <ul>
+                            <li><a href="https://leetcode.com/u/Mithraja/" target="_blank" rel="noreferrer">LeetCode</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mithraja. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
